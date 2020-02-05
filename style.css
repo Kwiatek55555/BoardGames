@@ -124,4 +124,9 @@ a {
 a:hover {
   color: #7198ca;
 }
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
 /*# sourceMappingURL=style.css.map */
