@@ -1,4 +1,4 @@
-$mainColor: #c2c2c2;
+$mainColor: #f7f7f7;
 
 * {
     box-sizing: border-box;
@@ -12,6 +12,7 @@ $mainColor: #c2c2c2;
     margin: 10px auto;
     background-color: $mainColor;
     border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 header {
@@ -38,18 +39,15 @@ header {
 
 section {
     clear: both;
+    background-color: $mainColor + #111111;
 }
 
 article {
-    font-weight: 700;
     h2 {
         padding-left: 100px;
     }
     p {
         padding-left: 20px;
-    }
-    ul:first-child {
-        font-weight: 100;
     }
 }
 
@@ -91,11 +89,14 @@ table {
     border-collapse: collapse;
     background-color: $mainColor + #111;
     th {
-        font-weight: 700;
+        
         text-transform: uppercase;
     }
     th, td {
         border: solid 1px black;     
+    }
+    td {
+        padding-left: 7px;
     }
 }
 
