@@ -48,6 +48,12 @@ header img {
   margin: 10px 20px 20px 10px;
 }
 
+ol > li {
+  display: inline-block;
+  height: 80px;
+  width: 40%;
+}
+
 section {
   clear: both;
   background-color: white;

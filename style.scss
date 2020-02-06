@@ -36,7 +36,11 @@ header {
     }
 }
 
-
+ol > li {
+    display: inline-block;
+    height: 80px;
+    width: 40%;
+}
 
 section {
     clear: both;
